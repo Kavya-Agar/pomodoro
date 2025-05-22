@@ -1,30 +1,13 @@
-# React + TypeScript + Vite
+# Pomodoro Timer
+Just a basic pomodoro timer that runs locally within the user's computer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+React + Vite + TypeScript + ElectronJS
 
-Currently, two official plugins are available:
+## Why?
+* It was made because I wanted to learn TypeScript and ElectronJS which were both new to me
+* I thought since I get off task really quick and pomodoro timer method has been proven to be a better method to study and focus, why not make my own and learn TS on the side
+* Overall, not a big fan of TypeScript, but it was a small project that would've probably been easier with React Native or Python GUI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##### Will I update this in the future?
+No idea 🤷‍♂️
